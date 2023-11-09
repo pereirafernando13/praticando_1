@@ -89,3 +89,28 @@ body {
     background-size: cover;
     height: 70vh;
 }
+
+.hero__content {
+    text-align: center;
+    background: url(./images/bg-pattern-intro-left-mobile.svg) no-repeat;
+    background-color: var(--primaria-violeta);
+    color: var(--neutral-cinza);
+    position: relative;
+}
+
+.container__texto h2 {
+    font-size: 48px;
+    font-family: var(--fonte-secundaria);
+    margin: 0 0.5em;
+    line-height: 1;
+    color: #fefefe;
+}
+
+.container__texto p {
+    margin: 1.5em 2em ;
+    color: #FAFAFA;
+    font-family: var(--fonte-secundaria);
+    padding: 0 1em;
+    opacity: 0.7;
+    line-height: 1.5;
+}
